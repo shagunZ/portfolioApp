@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   
+    <link
+      href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <title>Metal3-io</title>
+
+ 
+    <!-- IMG URL: -->
+    <meta
+      property="og:image"
+      content="https://raw.githubusercontent.com/Thiagoow/metal3-io-Responsive-LandingPage/master/assets/img/ThumbnailLinkImg.jpg"
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:image:type" content="image/jpeg" />
+   
+    <meta property="og:image:width" content="300" />
+    <meta property="og:image:height" content="300" />
+   
+  </head>
+  <body>
+    
+    <a href="#" class="scrollTop show-scroll" id="scroll-top">
+      <i class="bx bx-chevron-up scrollTop_icon"></i>
+    </a>
+
+  
+    <header class="l-header" id="header">
+      <nav class="nav bd-container">
+        <a href="/" class="nav_logo">
+          <b>
+            <span>Metal3 🔩</span>  
+          </b>
+        </a>
+
+        <div class="nav_menu" id="nav-menu">
+          <ul class="nav_list">
+            <li class="nav_item">
+              <a href="#home" class="nav_link">Home</a>
+            </li>
+            <li class="nav_item">
+              <a href="#aim" class="nav_link">Aim</a>
+            </li>
+            <li class="nav_item">
+              <a href="#components" class="nav_link">Components</a>
+            </li>
+            <li class="nav_item">
+              <a href="#mission" class="nav_link">Our Mission</a>
+            </li>
+            <li class="hidden_item">
+              <a href="#app" class="nav_link">App</a>
+            </li>
+            <li class="nav_item">
+              <a href="#contact" class="nav_link">Contact Us</a>
+            </li>
+
+            <li><i class="bx bx-moon change-theme" id="theme-button"></i></li>
+          </ul>
+        </div>
+
+        <div class="nav_toggle" id="nav-toggle">
+          
+          <button
+            class="menu"
+            aria-label="Abrir Menu"
+            onclick="this.classList.toggle('opened');this.setAttribute('aria-expanded', this.classList.contains('opened'))"
+          >
+            <svg width="40" height="41" viewBox="0 0 100 100">
+              <path
+                class="line line1"
+                d="M 20,29.000046 H 80.000231 C 80.000231,29.000046 94.498839,28.817352 94.532987,66.711331 94.543142,77.980673 90.966081,81.670246 85.259173,81.668997 79.552261,81.667751 75.000211,74.999942 75.000211,74.999942 L 25.000021,25.000058"
+              />
+              <path class="line line2" d="M 20,50 H 80" />
+              <path
+                class="line line3"
+                d="M 20,70.999954 H 80.000231 C 80.000231,70.999954 94.498839,71.182648 94.532987,33.288669 94.543142,22.019327 90.966081,18.329754 85.259173,18.331003 79.552261,18.332249 75.000211,25.000058 75.000211,25.000058 L 25.000021,74.999942"
+              />
+            </svg>
+          </button>
+        </div>
+      </nav>
+    </header>
+
+    <main class="l-main">
+      <!--Home-->
+      <section class="home" id="home">
+        <div class="home_container bd-container bd-grid">
+          <div class="home_data">
+            <h1 class="home_title">Metal³-io 🛠️</h1>
+            <h2 class="home_subtitle">Toolset for managing bare metal infrastructure</h2>
+            <a href="#" class="button">Get Started</a>
+          </div>
+
+          <img
+            src="https://metal3io.netlify.app/images/metal3-color.svg"
+            alt="Prato de comida saudável"
+            class="home_img"
+          />
+        </div>
+      </section>
+
+      <!--aim-->
+      <section class="aim section bd-container" id="aim">
+        <div class="about_container bd-grid">
+          <div class="about_data">
+            
+            <h2 class="section-title about_initial">
+              Our Aim
+            </h2>
+            <p class="about_description">
+              Metal3-io is an open source project that aims to provide a declarative approach and a toolset for managing bare metal infrastructure for bare metal using Kubernetes along with native API for managing bare metal hosts via a provisioning stack that is also running on Kubernetes. 😎
+            </p>
+          </div>
+           <img
+            src="https://metal3.io/assets/images/home-right-image.svg"
+            alt="Ingredientes naturais"
+            class="about_img"
+          />
+          
+        </div>
+      </section>
+
+      <!--components-->
+      <section class="components section bd-container" id="components">
+       
+        <!-- <h2 class="section-title">Components</h2> -->
+        <p class="section-subtitle">The project includes various components such as the Metal3-io operator, the Metal3-io bare metal host operator, the Metal3-io cluster-api provider, and the Metal3-io hardware manager.</p>
+
+        <div class="services_container bd-grid">
+          <div class="services_content">
+           
+    
+
+            <h3 class="services_title">Bare Metal Actuator</h3>
+            <p class="services_description">
+              Bare Metal Actuator is an implementation of the Machine Actuator interface defined by the cluster-api project.This actuator reacts to changes to Machine objects and acts as a client of the BareMetalHost custom resources managed by the Bare Metal.
+            </p>
+          </div>
+
+          <div class="services_content">
+            <h3 class="services_title">Bare Metal Operator</h3>
+            <p class="services_description">
+              Metal3-io operator is responsible for managing the lifecycle of a bare metal host, which includes provisioning, configuring, and decommissioning. The operator uses the Kubernetes API to manage the state of the host.
+            </p>
+          </div>
+
+          <div class="services_content">
+            <h3 class="services_title">Bare Metal Host Operator</h3>
+            <p class="services_description">
+              Metal3-io bare metal host operator is responsible for discovering and managing the hardware resources of a bare metal host. It provides a framework for hardware management that allows users to interact with hardware resources using Kubernetes resources.
+            </p>
+          </div>
+
+          <div class="services_content">
+            <h3 class="services_title">Cluster-api provider</h3>
+            <p class="services_description">
+              The Metal3-io cluster-api provider is a Kubernetes cluster API implementation that allows the provisioning of Kubernetes clusters on bare metal infrastructure.
+            </p>
+          </div>
+
+          <div class="services_content">
+            <h3 class="services_title">Bare Metal Hardware Manager</h3>
+            <p class="services_description">
+              Metal3-io hardware manager provides a hardware inventory of a bare metal host, including information on the CPU, memory, storage, and network interfaces.
+            </p>
+          </div>
+          
+
+        </div>
+      </section>
+
+      <!--Mission-->
+      <section class="mission section bd-container" id="mission">
+        <div class="about_container bd-grid">
+          <div class="about_data">
+            <h2 class="section-title about_initial">
+              Our Mission
+            </h2>
+            <p class="about_description">
+              Our Mission is to make it more beginner friendly and easily discoverable and to improve the final user experience. We want to provide clear and concise information on what Metal3 is, how to use it and where to reach out for help in case of problems. Along with external resources links for additional information.The project aims to provide a unified and consistent management experience for both virtualized and bare metal environments, enabling users to treat their bare metal hosts as if they were just another Kubernetes resource.🪛
+            </p>
+          
+          </div>
+           <img
+            src="https://metal3.io/assets/images/infograph-stack.svg"
+            alt="Ingredientes naturais"
+            class="about_img"
+          />
+          
+        </div>
+      </section>
+
+
+
+     
+      <!--CONTACT US -->
+      <section class="contact section bd-container" id="contact">
+        <div class="contact_container bd-grid">
+          <div class="contact_data">
+            <h2 class="section-title contact_initial">Contact Us</h2>
+            <p class="contact_description">
+              Join conversations with the other people who are involved in the creation, maintenance, and future of Metal3.io. 😉
+            </p>
+          </div>
+
+          <div class="contact_button">
+            <a href="#contact" class="button">Get Connected</a>
+          </div>
+        </div>
+
+        <div>
+           <a href="https://twitter.com/metal3_io" class="footer_social"><i class="bx bxl-twitter"></i></a>
+          <a href="https://github.com/metal3-io" class="footer_social"><i class="bx bxl-github"></i></a>
+          <a href="https://www.youtube.com/channel/UC_xneeYbo-Dl4g-U78xW15g/videos" class="footer_social"><i class="bx bxl-youtube"></i></a>
+          <a href="https://groups.google.com/g/metal3-dev" class="footer_social"><i class="bx bxl-gmail"></i></a>
+          <a href="https://app.slack.com/client/T09NY5SBT/CHD49TLE7" class="footer_social"><i class="bx bxl-slack"></i></a>
+          
+        </div>
+
+      </section>
+    </main>
+
+    <!--footer-->
+    <footer class="footer section bd-container">
+      <div class="footer_container bd-grid">
+        <div class="footer_content">
+          <b class="footer_logo">
+            
+            <span>Metal3-io</span>
+          </b>
+
+          <span class="footer_description">Bare metal host provisioning for Kubernetes</span>
+
+        
+        </div>
+
+        <div class="footer_content">
+          <h3 class="footer_title">Testing Resources </h3>
+          <ul>
+            <li><a href="https://www.nordix.org/" class="footer_link">Nordix</a></li>
+            <li><a href="https://origins.dev/" class="footer_link">Packet.net</a></li>
+            <li><a href="https://www.netlify.com/" class="footer_link">Netlify </a></li>
+            <li><a href="https://www.travis-ci.com/" class="footer_link">Travis CI</a></li>
+          </ul>
+        </div>
+
+               <div class="footer_content">
+          <h3 class="footer_title">News and Blogs</h3>
+          <ul>
+            <li><a href="https://metal3.io/blog/2019/05/13/The_new_stack_Metal3_Uses_OpenStack_Ironic_for_Declarative_Bare_Metal_Kubernetes.html" class="footer_link">OpenStack's Ironic </a></li>
+            <li><a href="https://metal3.io/blog/2019/04/12/Raise_some_horns_Red_Hat_s_MetalKube_aims_to_make_Kubernetes_on_bare_machines_simple.html" class="footer_link">Red Hat's Metalkube </a></li>
+            <li><a href="https://metal3.io/blog/2019/11/07/Kubernetes-native_Infrastructure-Managed_Baremetal_with_Kubernetes_Operators_and_OpenStack_Ironic.html" class="footer_link">Kubernetes-native </a></li>
+            <li><a href="https://metal3.io/blog/" class="footer_link">Metal3 blog posts</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <p class="footer_copy">
+        Copyright 2023 The Metal³ Contributors
+        <a
+          href="https://github.com/Thiagoow/UberEats-Responsive-LandingPage"
+          class="footer_link"
+          target="_blank"
+        >
+        </a>
+      </p>
+    </footer>
+
+    <!--SCROLL REVEAL LIBRARY-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!--js-->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
