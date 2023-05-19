@@ -301,24 +301,65 @@ body.dark-theme {
 
 /*========== HOME ==========*/
 .home_container {
-  margin-top: -1rem;
+  margin-top: -1.3rem;
   height: calc(100vh - var(--header-height));
   align-content: center;
 }
 .home_title {
   font-size: var(--big-font-size);
-  color: var(--first-color);
+  /* color: var(--first-color); */
   margin-bottom: var(--mb-1);
 }
 .home_subtitle {
-  font-size: var(--h1-font-size);
+  font-size: var(--small-font-size);
   color: var(--title-color);
   margin-bottom: var(--mb-4);
 }
 .home_img {
   width: 300px;
+  height: 300px;
+  border-radius: 440px;
   justify-self: center;
 }
+
+
+
+.angle-down {
+  display: block;
+}
+
+@media only screen and (max-width: 920px) {
+  .angle-down {
+    display: none;
+}
+}
+
+.box {
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.box span {
+  display: block;
+  width: 30px;
+  height: 30px;
+  border-bottom: 2px solid rgb(77, 73, 73);
+  border-right: 2px solid rgb(77, 73, 73);
+  transform: rotate(45deg);
+  margin: -10px;
+  animation: animate 2s infinite;
+}
+
+.box span:nth-child(2) {
+  animation-delay: -0.2s;
+}
+
+.box span:nth-child(3) {
+  animation-delay: -0.4s;
+}
+
 
 /*========== BUTTONS ==========*/
 .button {
@@ -542,7 +583,10 @@ body.dark-theme {
   }
 
   .home_img {
-    width: 500px;
+    width: 400px;
+    height: 400px;
+    border: 2px;
+    border-radius:440px;
     margin-top: var(--mb-1);
   }
 
