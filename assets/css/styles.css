@@ -8,7 +8,8 @@
   /*========== Colors ==========*/
   --first-color: #3fc060;
   --first-color-alt: #048654;
-  --title-color: #232323;
+  /* --title-color: #232323; */
+  --title-color: #0a629e;
   --logo-dark-color: #162328;
   /* --text-color: #000; */
   --text-color: #0a629e;
@@ -84,7 +85,6 @@ h3,
 p,
 ul {
   margin: 0;
-  color: #0a629e !important;
 }
 ul {
   padding: 0;
@@ -100,9 +100,12 @@ img {
 
 /*========== Variables Dark theme ==========*/
 body.dark-theme {
-  --title-color: #fff;
-  --text-color: #e8e8e8;
-  --text-color-light: #838385;
+  /* --title-color: #fff; */
+  --title-color: #80cbff ;
+  /* --text-color: #e8e8e8; */
+  --text-color: #80cbff ;
+  /* --text-color-light: #838385; */
+  --text-color-light: #80cbff ;
   --body-color: #111f24;
   --container-color: #172a31;
   --logo-dark-color: #f1f3f2;
@@ -359,7 +362,7 @@ body.dark-theme {
 }
 
 .box span:nth-child(3) {
-  animation-delay: -0.4s;
+  animation-delay: -0.2s;
 }
 
 
@@ -607,7 +610,7 @@ body.dark-theme {
 .card-text{
   font-size: 0.8em;
   font-weight: lighter;
-  color: #0a629e;
+  /* color: #0a629e; */
 }
 .card-subtitle{
 font-size: small;

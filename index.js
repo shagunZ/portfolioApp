@@ -38,7 +38,7 @@ http.onload = function(){
          output += `
          <div class="card" style="width: 18rem;">
          <div class="card-body">
-           <h5 class="card-title">MovieApp</h5>
+           <h5 class="card-title">${item.title}</h5>
            <h6 class="card-subtitle mb-2 text-body-secondary">${item.tech}</h6>
            <p class="card-text">${item.description}</p>
            <div style="margin:8px">
