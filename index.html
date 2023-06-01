@@ -22,7 +22,11 @@
    
     <meta property="og:image:width" content="300" />
     <meta property="og:image:height" content="300" />
-   
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js" integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js" integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ" crossorigin="anonymous"></script>
+
+    <script src="https://kit.fontawesome.com/27551d6060.js" crossorigin="anonymous"></script>
+     <script type="module" src="index.js"></script>
   </head>
   <body>
     
@@ -48,10 +52,10 @@
               <a href="#about" class="nav_link">About Me</a>
             </li>
             <li class="nav_item">
-              <a href="#components" class="nav_link">Components</a>
+              <a href="#projects" class="nav_link">Projects</a>
             </li>
             <li class="nav_item">
-              <a href="#mission" class="nav_link">Our Mission</a>
+              <a href="#skills" class="nav_link">Skills</a>
             </li>
             <li class="hidden_item">
               <a href="#app" class="nav_link">App</a>
@@ -96,6 +100,15 @@
             <p class="home">Hello, I'm Shagun Mengi, 2nd year student pursuing BTech in Computer Science Engineering. I am always eager to explore new technologies and expand my skill set. I am passionate about staying up-to-date with the latest trends and developments in the field, and I love experimenting with new tools and platforms.  I am always looking for new opportunities to expand my knowledge and skills, and I am committed to staying at the forefront of the ever-evolving tech landscape. <br><br>
             </p>
             <a href="#contact"  class="button">Let's Connect</a>
+            <div>
+              <a href="https://linkedin.com/shagunmengi" class="footer_social"><i class="bx bxl-linkedin"></i></a>
+              <a href="https://github.com/shagunZ" class="footer_social"><i class="bx bxl-github"></i></a>
+               <a href="https://twitter.com/nowVno" class="footer_social"><i class="bx bxl-twitter"></i></a>
+           <a href="https://www.youtube.com/channel/UC_xneeYbo-Dl4g-U78xW15g/videos" target=”_blank” class="footer_social"><i class="bx bxl-youtube"></i></a>
+              <a href="https://groups.google.com/g/shagunmengi003" class="footer_social"><i class="bx bxl-gmail"></i></a>
+              <a href="https://app.slack.com/client/T09NY5SBT/CHD49TLE7" class="footer_social"><i class="bx bxl-slack"></i></a>
+              
+            </div>
           </div>
 
           <img
@@ -132,64 +145,36 @@
         </div>
       </section>
 
-      <!--components-->
-      <section class="components section bd-container" id="components">
-       
-        <!-- <h2 class="section-title">Components</h2> -->
-        <p class="section-subtitle">The project includes various components such as the Metal3-io operator, the Metal3-io bare metal host operator, the Metal3-io cluster-api provider, and the Metal3-io hardware manager.</p>
+      <!--projects-->
+      <section class="projects section bd-container" id="projects">
+        <!-- <h2 class="section-title">projects</h2> -->
+        <h2 class="section-title about_initial">
+          Projects
+        </h2>
 
         <div class="services_container bd-grid">
-          <div class="services_content">
-           
-    
-
-            <h3 class="services_title">Bare Metal Actuator</h3>
-            <p class="services_description">
-              Bare Metal Actuator is an implementation of the Machine Actuator interface defined by the cluster-api project.This actuator reacts to changes to Machine objects and acts as a client of the BareMetalHost custom resources managed by the Bare Metal.
-            </p>
-          </div>
-
-          <div class="services_content">
-            <h3 class="services_title">Bare Metal Operator</h3>
-            <p class="services_description">
-              Metal3-io operator is responsible for managing the lifecycle of a bare metal host, which includes provisioning, configuring, and decommissioning. The operator uses the Kubernetes API to manage the state of the host.
-            </p>
-          </div>
-
-          <div class="services_content">
-            <h3 class="services_title">Bare Metal Host Operator</h3>
-            <p class="services_description">
-              Metal3-io bare metal host operator is responsible for discovering and managing the hardware resources of a bare metal host. It provides a framework for hardware management that allows users to interact with hardware resources using Kubernetes resources.
-            </p>
-          </div>
-
-          <div class="services_content">
-            <h3 class="services_title">Cluster-api provider</h3>
-            <p class="services_description">
-              The Metal3-io cluster-api provider is a Kubernetes cluster API implementation that allows the provisioning of Kubernetes clusters on bare metal infrastructure.
-            </p>
-          </div>
-
-          <div class="services_content">
-            <h3 class="services_title">Bare Metal Hardware Manager</h3>
-            <p class="services_description">
-              Metal3-io hardware manager provides a hardware inventory of a bare metal host, including information on the CPU, memory, storage, and network interfaces.
-            </p>
-          </div>
-          
-
+          <div class="services_content myprojects" id="cardContainer">
+            <div class="card" style="width: 18rem;">
+              <div class="card-body">
+                <h5 class="card-title">${item.title}</h5>
+                <h6 class="card-subtitle mb-2 text-body-secondary">${item.tech}</h6>
+                <p class="card-text">${item.description}</p>
+                <a href="${item.link}" class="card-link" target=”_blank”>github</a>
+              </div>
+            </div>
+        </div>
         </div>
       </section>
 
-      <!--Mission-->
-      <section class="mission section bd-container" id="mission">
+      <!--skills-->
+      <section class="skills section bd-container" id="skills">
         <div class="about_container bd-grid">
           <div class="about_data">
             <h2 class="section-title about_initial">
-              Our Mission
+              Our skills
             </h2>
             <p class="about_description">
-              Our Mission is to make it more beginner friendly and easily discoverable and to improve the final user experience. We want to provide clear and concise information on what Metal3 is, how to use it and where to reach out for help in case of problems. Along with external resources links for additional information.The project aims to provide a unified and consistent management experience for both virtualized and bare metal environments, enabling users to treat their bare metal hosts as if they were just another Kubernetes resource.🪛
+              Our skills is to make it more beginner friendly and easily discoverable and to improve the final user experience. We want to provide clear and concise information on what Metal3 is, how to use it and where to reach out for help in case of problems. Along with external resources links for additional information.The project aims to provide a unified and consistent management experience for both virtualized and bare metal environments, enabling users to treat their bare metal hosts as if they were just another Kubernetes resource.🪛
             </p>
           
           </div>
@@ -225,7 +210,7 @@
           <a href="https://github.com/shagunZ" class="footer_social"><i class="bx bxl-github"></i></a>
           <a href="https://www.youtube.com/channel/UC_xneeYbo-Dl4g-U78xW15g/videos" class="footer_social"><i class="bx bxl-youtube"></i></a>
            <a href="https://twitter.com/nowVno" class="footer_social"><i class="bx bxl-twitter"></i></a>
-          <a href="https://groups.google.com/g/metal3-dev" class="footer_social"><i class="bx bxl-gmail"></i></a>
+          <a href="https://groups.google.com/g/shagunmengi003" class="footer_social"><i class="bx bxl-gmail"></i></a>
           <a href="https://app.slack.com/client/T09NY5SBT/CHD49TLE7" class="footer_social"><i class="bx bxl-slack"></i></a>
           
         </div>

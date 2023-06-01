@@ -1,0 +1,73 @@
+
+    [
+          {
+            "link": "https://moviey.netlify.app/",
+            "title": "MovieApp",
+            "description": "The MovieApp is built with React, leveraging APIs to provide users with an extensive collection of movies and comprehensive search options. The app dynamically retrieves movie data, including titles,ratings, posters, and more, ensuring an up-to-date and diverse selection for users to explore. ",
+            "tech": ["React js", "HTML", "Css", "JavaScript"]
+          },
+        
+             {
+            "link": "https://reactscorekeeper.netlify.app/",
+            "title": "ScoreKeeper",
+            "description": "The ScoreKeeper is the basic ReactApp, leveraging APIs to provide users with an extensive collection of movies and comprehensive search options. The app dynamically retrieves movie data, including titles,ratings, posters, and more, ensuring an up-to-date and diverse selection for users to explore. ",
+            "tech": ["React js", "HTML", "Css", "JavaScript"]
+          },
+  
+          {
+            "link": "https://devfolio.co/projects/cbuilds-7f10",
+            "title": "ScoreKeeper",
+            "description": "The ScoreKeeper is the basic ReactApp, leveraging APIs to provide users with an extensive collection of movies and comprehensive search options. The app dynamically retrieves movie data, including titles,ratings, posters, and more, ensuring an up-to-date and diverse selection for users to explore. ",
+            "tech": ["React js", "HTML", "Css", "JavaScript"]
+          },
+  
+          {
+            "link": "https://github.com/shagunZ/apifrontmentor-express",
+            "title": "MovieApp",
+            "description": "The MovieApp is built with React, leveraging APIs to provide users with an extensive collection of movies and comprehensive search options. The app dynamically retrieves movie data, including titles,ratings, posters, and more, ensuring an up-to-date and diverse selection for users to explore. ",
+            "tech": ["React js", "HTML", "Css", "JavaScript"]
+          },
+   
+          {
+            "link": "https://github.com/shagunZ/Bookstore-shoppingCart",
+            "title": "MovieApp",
+            "description": "The MovieApp is built with React, leveraging APIs to provide users with an extensive collection of movies and comprehensive search options. The app dynamically retrieves movie data, including titles,ratings, posters, and more, ensuring an up-to-date and diverse selection for users to explore. ",
+            "tech": ["React js", "HTML", "Css", "JavaScript"]
+          },
+   
+          {
+            "link": "https://github.com/shagunZ/metal3iotask1",
+            "title": "MovieApp",
+            "description": "The MovieApp is built with React, leveraging APIs to provide users with an extensive collection of movies and comprehensive search options. The app dynamically retrieves movie data, including titles,ratings, posters, and more, ensuring an up-to-date and diverse selection for users to explore. ",
+            "tech": ["React js", "HTML", "Css", "JavaScript"]
+          },
+   
+          {
+            "link": "https://github.com/shagunZ/UniversityUtility",
+            "title": "MovieApp",
+            "description": "The MovieApp is built with React, leveraging APIs to provide users with an extensive collection of movies and comprehensive search options. The app dynamically retrieves movie data, including titles,ratings, posters, and more, ensuring an up-to-date and diverse selection for users to explore. ",
+            "tech": ["React js", "HTML", "Css", "JavaScript"]
+          },
+   
+          {
+            "link": "https://master--threejsspacetutorial.netlify.app/",
+            "title": "ThreeJsSpaceTutorial",
+            "description": "The MovieApp is built with React, leveraging APIs to provide users with an extensive collection of movies and comprehensive search options. The app dynamically retrieves movie data, including titles,ratings, posters, and more, ensuring an up-to-date and diverse selection for users to explore. ",
+            "tech": ["React js", "HTML", "Css", "JavaScript"]
+          },
+   
+          {
+            "link": "https://friendlychat-79704.firebaseapp.com/",
+            "title": "Friendly Chat Firebase",
+            "description": "The MovieApp is built with React, leveraging APIs to provide users with an extensive collection of movies and comprehensive search options. The app dynamically retrieves movie data, including titles,ratings, posters, and more, ensuring an up-to-date and diverse selection for users to explore. ",
+            "tech": ["React js", "HTML", "Css", "JavaScript"]
+          },
+   
+          {
+            "link": "https://github.com/shagunZ/bookingjini-icons/tree/chatbot",
+            "title": "MovieApp",
+            "description": "The MovieApp is built with React, leveraging APIs to provide users with an extensive collection of movies and comprehensive search options. The app dynamically retrieves movie data, including titles,ratings, posters, and more, ensuring an up-to-date and diverse selection for users to explore. ",
+            "tech": ["React js", "HTML", "Css", "JavaScript"]
+          }
+        ]
+ 

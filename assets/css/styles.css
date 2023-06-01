@@ -10,7 +10,8 @@
   --first-color-alt: #048654;
   --title-color: #232323;
   --logo-dark-color: #162328;
-  --text-color: #000;
+  /* --text-color: #000; */
+  --text-color: #0a629e;
   --text-color-light: #6c6c6c;
   --body-color: #f2f2f2;
   --container-color: #fdfdfd;
@@ -83,6 +84,7 @@ h3,
 p,
 ul {
   margin: 0;
+  color: #0a629e !important;
 }
 ul {
   padding: 0;
@@ -394,6 +396,10 @@ body.dark-theme {
 }
 .services_content {
   text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
 .services_img {
   width: 64px;
@@ -593,4 +599,49 @@ body.dark-theme {
   .about_container {
     column-gap: 7rem;
   }
+}
+
+
+
+
+.card-text{
+  font-size: 0.8em;
+  font-weight: lighter;
+  color: #0a629e;
+}
+.card-subtitle{
+font-size: small;
+font-size: small;
+color: #036778;
+font-style: oblique;
+}
+.card-title{
+  font-size: large;
+  color: #6ab583;
+}
+.card-body{
+  cursor:pointer;
+  border: 2px solid #67ae4f;
+  margin: 8px;
+  border-radius: 20px;
+  box-shadow: 1px 0 7px 1px #8cd3fd;
+  transition: all 0.3s ease;
+}
+.card-body:hover {
+  transform: scale(0.9);
+}
+.fa-link{
+  color: #4d4dc1;
+}
+.bxl-youtube{
+  color:red;
+}
+.bxl-linkedin{
+  color:rgb(27, 27, 142);
+}
+.bxl-twitter{
+  color:rgb(82, 148, 234);
+}
+.bxl-gmail{
+  color:rgb(232, 88, 112);
 }
