@@ -28,6 +28,12 @@
             "description": "The MovieApp is built with React, leveraging APIs to provide users with an extensive collection of movies and comprehensive search options. The app dynamically retrieves movie data, including titles,ratings, posters, and more, ensuring an up-to-date and diverse selection for users to explore. ",
             "tech": ["React js", "HTML", "Css", "JavaScript"]
           },
+          {
+            "link": "https://github.com/shagunZ/apifrontmentor-express",
+            "title": "Chat App",
+            "description": "The MovieApp is built with React, leveraging APIs to provide users with an extensive collection of movies and comprehensive search options. The app dynamically retrieves movie data, including titles,ratings, posters, and more, ensuring an up-to-date and diverse selection for users to explore. ",
+            "tech": ["React js", "HTML", "Css", "JavaScript"]
+          },
    
           {
             "link": "https://github.com/shagunZ/Bookstore-shoppingCart",

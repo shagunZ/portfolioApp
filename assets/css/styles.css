@@ -354,7 +354,7 @@ body.dark-theme {
   border-right: 2px solid rgb(77, 73, 73);
   transform: rotate(45deg);
   margin: -10px;
-  animation: animate 2s infinite;
+  animation: animate 1s infinite;
 }
 
 .box span:nth-child(2) {
@@ -647,4 +647,7 @@ font-style: oblique;
 }
 .bxl-gmail{
   color:rgb(232, 88, 112);
+}
+.bxl-github{
+  color:black;
 }
