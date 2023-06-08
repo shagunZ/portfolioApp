@@ -670,3 +670,8 @@ font-style: oblique;
 .bxl-github{
   color:black;
 }
+
+.last{
+  text-align: center;
+  margin-top: 3em;
+}

@@ -2,65 +2,80 @@
     [
           {
             "link": "https://moviey.netlify.app/",
+            "github": "https://github.com/shagunZ/ScrollGate",
             "youtube":"https://",
-            "title": "FirebaseInfiniteScroll",
-            "description": "The MovieApp is built with React, leveraging APIs to provide users with an extensive collection of movies and comprehensive search options. The app dynamically retrieves movie data, including titles,ratings, posters, and more, ensuring an up-to-date and diverse selection for users to explore. ",
-            "tech": ["React js", "HTML", "Css", "JavaScript"]
+            "title": "Scroll Gate",
+            "description": "Scroll Gate combines the concept of infinite scrolling, external API integration, React development, and Firebase Authentication to create a dynamic and engaging application that keeps users immersed in a continuous stream of content while maintaining secure user authentication. ",
+            "tech": ["Reactjs ", "Firebase ", "ReactBootstrap"]
           },
         
              {
-            "link": "https://reactscorekeeper.netlify.app/",
-            "title": "YelpCamp",
-            "description": "The ScoreKeeper is the basic ReactApp, leveraging APIs to provide users with an extensive collection of movies and comprehensive search options. The app dynamically retrieves movie data, including titles,ratings, posters, and more, ensuring an up-to-date and diverse selection for users to explore. ",
-            "tech": ["React js", "HTML", "Css", "JavaScript"]
+            "link": "https://github.com/shagunZ/YelpCamp",
+            "github": "https://github.com/shagunZ/YelpCamp",
+            "youtube":"https://www.youtube.com/watch?v=UkbCn1jiCv4",
+            "title": "Yelp Camp",
+            "description": "YelpCamp is a Full Stack app for a campground sharing and reviewing platform. Users can create an account, log in, and perform various actions within the application, such as creating , adding comments and reviews , editing or deleting , and browsing through different campground listings.",
+            "tech": ["Expressjs ", "Nodejs ", "Bycrypt ", "JavaScript"]
           },
   
           {
-            "link": "https://devfolio.co/projects/cbuilds-7f10",
-            "title": "ToDo App",
-            "description": "The ScoreKeeper is the basic ReactApp, leveraging APIs to provide users with an extensive collection of movies and comprehensive search options. The app dynamically retrieves movie data, including titles,ratings, posters, and more, ensuring an up-to-date and diverse selection for users to explore. ",
-            "tech": ["React js", "HTML", "Css", "JavaScript"]
+            "link": "https://github.com/shagunZ/ToDoAppCrud",
+            "youtube":"https://www.youtube.com/watch?v=hRdPMSi_7ZY",
+            "github":"https://github.com/shagunZ/ToDoAppCrud",
+            "title": "Task Manager",
+            "description": "Task Manager is a MERN stack application that excels in providing efficient Create, Read, Update, and Delete (CRUD) operations. It is a no-login task recording app utilizing various features of React, such as Event Listeners, State Management, Conditional Rendering, React Hooks, seamless user experience without experiencing page reloads.  ",
+            "tech": ["Reactjs ", "Expressjs ", "Nodejs ", "MongoDB"]
           },
   
           {
             "link": "https://github.com/shagunZ/apifrontmentor-express",
             "title": "Blogify",
             "description": "The MovieApp is built with React, leveraging APIs to provide users with an extensive collection of movies and comprehensive search options. The app dynamically retrieves movie data, including titles,ratings, posters, and more, ensuring an up-to-date and diverse selection for users to explore. ",
-            "tech": ["React js", "HTML", "Css", "JavaScript"]
+            "tech": ["Reactjs", "Expressjs", "Nodejs", "MongoDB"]
           },
           {
-            "link": "https://github.com/shagunZ/apifrontmentor-express",
-            "title": "Chat App",
+            "link": "https://github.com/shagunZ/FriendlyChatfirebase",
+            "youtube":"https://www.youtube.com/watch?v=hRdPMSi_7ZY",
+            "github":"https://github.com/shagunZ/FriendlyChatfirebase",
+            "title": "Friendly Chat",
+            "description": "This is a chat application built using Firebase. It allows users to communicate with each other in real-time using Firebase's real-time database and authentication features. The chat application utilizes Firebase's real-time database, enabling instant message delivery between users.",
+            "tech": ["Firebase"]
+          },
+   
+          {
+            "link": "https://github.com/shagunZ/MovieApp",
+            "youtube":"https://www.youtube.com/watch?v=hRdPMSi_7ZY",
+            "github":"https://github.com/shagunZ/MovieApp",
+            "title": "MovieApp",
             "description": "The MovieApp is built with React, leveraging APIs to provide users with an extensive collection of movies and comprehensive search options. The app dynamically retrieves movie data, including titles,ratings, posters, and more, ensuring an up-to-date and diverse selection for users to explore. ",
-            "tech": ["React js", "HTML", "Css", "JavaScript"]
+            "tech": ["Reactjs", "Api", "JavaScript"]
           },
    
           {
             "link": "https://github.com/shagunZ/Bookstore-shoppingCart",
-            "title": "MovieApp",
-            "description": "The MovieApp is built with React, leveraging APIs to provide users with an extensive collection of movies and comprehensive search options. The app dynamically retrieves movie data, including titles,ratings, posters, and more, ensuring an up-to-date and diverse selection for users to explore. ",
-            "tech": ["React js", "HTML", "Css", "JavaScript"]
-          },
-   
-          {
-            "link": "https://github.com/shagunZ/metal3iotask1",
+            "github": "https://github.com/shagunZ/Bookstore-shoppingCart",
+            "youtube":"https://www.youtube.com/watch?v=nf5j6xxLNW0",
             "title": "Book Cart",
-            "description": "The MovieApp is built with React, leveraging APIs to provide users with an extensive collection of movies and comprehensive search options. The app dynamically retrieves movie data, including titles,ratings, posters, and more, ensuring an up-to-date and diverse selection for users to explore. ",
-            "tech": ["React js", "HTML", "Css", "JavaScript"]
+            "description": "Book Cart app offers users a convenient way to manage their book purchases by adding and deleting books. The app includes a feature that calculates the bill based on the books added to the cart. Each time a book is added or deleted, the app recalculates the total bill, taking into account the prices of the books in the cart. ",
+            "tech": ["Reactjs", "JavaScript"]
           },
    
           {
-            "link": "https://github.com/shagunZ/UniversityUtility",
+            "link": "https://github.com/shagunZ/apifrontmentor-express",
+            "github": "https://github.com/shagunZ/apifrontmentor-express",
+            "youtube": "https://github.com/shagunZ/apifrontmentor-express",
             "title": "PayApi",
-            "description": "The MovieApp is built with React, leveraging APIs to provide users with an extensive collection of movies and comprehensive search options. The app dynamically retrieves movie data, including titles,ratings, posters, and more, ensuring an up-to-date and diverse selection for users to explore. ",
-            "tech": ["React js", "HTML", "Css", "JavaScript"]
+            "description": "The PayAPI app is a frontend multipage application developed as a challenge project for Frontend Mentor. It utilizes the Express framework to create a user-friendly and is built with a responsive design, ensuring that it functions well and adapts to various devices and screen sizes.  ",
+            "tech": ["Expressjs", "JavaScript"]
           },
    
           {
             "link": "https://master--threejsspacetutorial.netlify.app/",
+            "github": "https://github.com/shagunZ/SpaceThreejs",
+            "youtube": "https://master--threejsspacetutorial.netlify.app/",
             "title": "ThreeJsSpaceTutorial",
-            "description": "The MovieApp is built with React, leveraging APIs to provide users with an extensive collection of movies and comprehensive search options. The app dynamically retrieves movie data, including titles,ratings, posters, and more, ensuring an up-to-date and diverse selection for users to explore. ",
-            "tech": ["React js", "HTML", "Css", "JavaScript"]
+            "description": "The Three.js Space Tutorial website is a captivating and interactive platform dedicated to exploring the wonders and power of Three.js, a popular JavaScript library for creating 3D graphics in the browser through a easy gothrough space environment. The interactive elements are seamlessly integrated, making it easy for users to explore and interact .  ",
+            "tech": ["Threejs", "React"]
           },
    
           {
@@ -71,10 +86,12 @@
           },
    
           {
-            "link": "https://github.com/shagunZ/bookingjini-icons/tree/chatbot",
+            "link": "https://github.com/shagunZ/ScoreKeeper",
+            "github": "https://github.com/shagunZ/ScoreKeeper",
+            "youtube": "https://www.youtube.com/watch?v=moq3xTYEEus",
             "title": "ScoreKeeper",
-            "description": "The MovieApp is built with React, leveraging APIs to provide users with an extensive collection of movies and comprehensive search options. The app dynamically retrieves movie data, including titles,ratings, posters, and more, ensuring an up-to-date and diverse selection for users to explore. ",
-            "tech": ["React js", "HTML", "Css", "JavaScript"]
+            "description": "Built using React, this app provides a user-friendly interface and real-time score updates.  The app dynamically updates the scores in real-time, providing an interactive and engaging experience. The app incorporates a score limit feature and displays the winner when the score limit is reached.  ",
+            "tech": ["React"]
           }
         ]
  

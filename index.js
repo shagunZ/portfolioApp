@@ -42,9 +42,9 @@ http.onload = function(){
            <h6 class="card-subtitle mb-2 text-body-secondary">${item.tech}</h6>
            <p class="card-text">${item.description}</p>
            <div style="margin:8px">
-           <a href="${item.link}" class="footer_social" target=”_blank”><i class="bx bxl-github"></i></a>
+           <a href="${item.github}" class="footer_social" target=”_blank”><i class="bx bxl-github"></i></a>
            <a href="${item.link}" class="footer_social" target=”_blank”><i class="fa-solid fa-link"></i></a>
-           <a href="https://www.youtube.com/channel/UC_xneeYbo-Dl4g-U78xW15g/videos" target=”_blank” class="footer_social"><i class="bx bxl-youtube"></i></a>
+           <a href="${item.youtube}" target=”_blank” class="footer_social"><i class="bx bxl-youtube"></i></a>
             </div>
          </div>
        </div>
