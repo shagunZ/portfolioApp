@@ -646,7 +646,8 @@ font-style: oblique;
   border: 2px solid #67ae4f;
   margin: 8px;
   border-radius: 20px;
-  box-shadow: 1px 0 7px 1px #8cd3fd;
+  box-shadow: 0 0 3px 1px #d1e4ef;
+  /* box-shadow: 1px 0 7px 1px #8cd3fd; */
   transition: all 0.3s ease;
 }
 .card-body:hover {
@@ -674,4 +675,8 @@ font-style: oblique;
 .last{
   text-align: center;
   margin-top: 3em;
+}
+
+.faicons{
+  font-size:3em;
 }

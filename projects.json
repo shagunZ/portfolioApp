@@ -3,7 +3,7 @@
           {
             "link": "https://moviey.netlify.app/",
             "github": "https://github.com/shagunZ/ScrollGate",
-            "youtube":"https://",
+            "youtube":"https://www.youtube.com/watch?v=u0RLH4vKBrA",
             "title": "Scroll Gate",
             "description": "Scroll Gate combines the concept of infinite scrolling, external API integration, React development, and Firebase Authentication to create a dynamic and engaging application that keeps users immersed in a continuous stream of content while maintaining secure user authentication. ",
             "tech": ["Reactjs ", "Firebase ", "ReactBootstrap"]
@@ -18,6 +18,14 @@
             "tech": ["Expressjs ", "Nodejs ", "Bycrypt ", "JavaScript"]
           },
   
+          {
+            "link": "https://synopsisai.netlify.app/",
+            "youtube":"https://www.youtube.com/watch?v=hRdPMSi_7ZY",
+            "github":"https://github.com/shagunZ/SynopsisAI",
+            "title": "SynopsisAI",
+            "description": "SynopsisAI streamline your reading experience and can transform lengthy articles into concise and easily readable summaries. The generated summaries are designed to be clear, concise, and highly readable texts and are facilitated by connecting to relevant APIs that processes the summarization. ",
+            "tech": ["Reactjs ", "Tailwind "]
+          },
           {
             "link": "https://github.com/shagunZ/ToDoAppCrud",
             "youtube":"https://www.youtube.com/watch?v=hRdPMSi_7ZY",
