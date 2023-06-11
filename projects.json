@@ -1,7 +1,7 @@
 
     [
           {
-            "link": "https://moviey.netlify.app/",
+            "link": "https://scrollgate.netlify.app/",
             "github": "https://github.com/shagunZ/ScrollGate",
             "youtube":"https://www.youtube.com/watch?v=u0RLH4vKBrA",
             "title": "Scroll Gate",
@@ -11,7 +11,7 @@
         
              {
             "link": "https://github.com/shagunZ/YelpCamp",
-            "github": "https://github.com/shagunZ/YelpCamp",
+            "github": "https://www.youtube.com/watch?v=UkbCn1jiCv4",
             "youtube":"https://www.youtube.com/watch?v=UkbCn1jiCv4",
             "title": "Yelp Camp",
             "description": "YelpCamp is a Full Stack app for a campground sharing and reviewing platform. Users can create an account, log in, and perform various actions within the application, such as creating , adding comments and reviews , editing or deleting , and browsing through different campground listings.",
@@ -20,7 +20,7 @@
   
           {
             "link": "https://synopsisai.netlify.app/",
-            "youtube":"https://www.youtube.com/watch?v=hRdPMSi_7ZY",
+            "youtube":"https://www.youtube.com/watch?v=0hrAFKKQLOY",
             "github":"https://github.com/shagunZ/SynopsisAI",
             "title": "SynopsisAI",
             "description": "SynopsisAI streamline your reading experience and can transform lengthy articles into concise and easily readable summaries. The generated summaries are designed to be clear, concise, and highly readable texts and are facilitated by connecting to relevant APIs that processes the summarization. ",
@@ -36,14 +36,16 @@
           },
   
           {
-            "link": "https://github.com/shagunZ/apifrontmentor-express",
+            "link": "https://www.youtube.com/watch?v=9xPglGIqDPI",
+            "youtube": "https://www.youtube.com/watch?v=9xPglGIqDPI",
+            "github": "https://github.com/shagunZ/BlogifyMERN",
             "title": "Blogify",
-            "description": "The MovieApp is built with React, leveraging APIs to provide users with an extensive collection of movies and comprehensive search options. The app dynamically retrieves movie data, including titles,ratings, posters, and more, ensuring an up-to-date and diverse selection for users to explore. ",
-            "tech": ["Reactjs", "Expressjs", "Nodejs", "MongoDB"]
+            "description": "A MERN stack app that provides authentication for secure access and includes features like liking and viewing personal and all blogs. With a user-friendly interface and rich text editing capabilities, Blogify makes blogging a seamless experience for users of all levels. ",
+            "tech": ["MongoDB", "Expressjs", "React", "Nodejs "]
           },
           {
-            "link": "https://github.com/shagunZ/FriendlyChatfirebase",
-            "youtube":"https://www.youtube.com/watch?v=hRdPMSi_7ZY",
+            "link": "https://friendlychat-79704.firebaseapp.com/",
+            "youtube":"https://github.com/shagunZ/FriendlyChatfirebase",
             "github":"https://github.com/shagunZ/FriendlyChatfirebase",
             "title": "Friendly Chat",
             "description": "This is a chat application built using Firebase. It allows users to communicate with each other in real-time using Firebase's real-time database and authentication features. The chat application utilizes Firebase's real-time database, enabling instant message delivery between users.",
@@ -51,7 +53,7 @@
           },
    
           {
-            "link": "https://github.com/shagunZ/MovieApp",
+            "link": "https://moviey.netlify.app",
             "youtube":"https://www.youtube.com/watch?v=hRdPMSi_7ZY",
             "github":"https://github.com/shagunZ/MovieApp",
             "title": "MovieApp",
@@ -71,7 +73,7 @@
           {
             "link": "https://github.com/shagunZ/apifrontmentor-express",
             "github": "https://github.com/shagunZ/apifrontmentor-express",
-            "youtube": "https://github.com/shagunZ/apifrontmentor-express",
+            "youtube": "https://www.youtube.com/watch?v=Xjb-9ZepWzw",
             "title": "PayApi",
             "description": "The PayAPI app is a frontend multipage application developed as a challenge project for Frontend Mentor. It utilizes the Express framework to create a user-friendly and is built with a responsive design, ensuring that it functions well and adapts to various devices and screen sizes.  ",
             "tech": ["Expressjs", "JavaScript"]
@@ -84,13 +86,6 @@
             "title": "ThreeJsSpaceTutorial",
             "description": "The Three.js Space Tutorial website is a captivating and interactive platform dedicated to exploring the wonders and power of Three.js, a popular JavaScript library for creating 3D graphics in the browser through a easy gothrough space environment. The interactive elements are seamlessly integrated, making it easy for users to explore and interact .  ",
             "tech": ["Threejs", "React"]
-          },
-   
-          {
-            "link": "https://friendlychat-79704.firebaseapp.com/",
-            "title": "Friendly Chat Firebase",
-            "description": "The MovieApp is built with React, leveraging APIs to provide users with an extensive collection of movies and comprehensive search options. The app dynamically retrieves movie data, including titles,ratings, posters, and more, ensuring an up-to-date and diverse selection for users to explore. ",
-            "tech": ["React js", "HTML", "Css", "JavaScript"]
           },
    
           {

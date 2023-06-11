@@ -634,7 +634,7 @@ body.dark-theme {
 .card-subtitle{
 font-size: small;
 font-size: small;
-color: #036778;
+/* color: #036778; */
 font-style: oblique;
 }
 .card-title{
@@ -643,12 +643,13 @@ font-style: oblique;
 }
 .card-body{
   cursor:pointer;
-  border: 2px solid #67ae4f;
+  /* border: 2px solid #67ae4f; */
   margin: 8px;
   border-radius: 20px;
-  box-shadow: 0 0 3px 1px #d1e4ef;
+  /* box-shadow: 0 0 3px 1px #d1e4ef; */
   /* box-shadow: 1px 0 7px 1px #8cd3fd; */
   transition: all 0.3s ease;
+  padding: 0.4em;
 }
 .card-body:hover {
   transform: scale(0.9);
@@ -660,7 +661,7 @@ font-style: oblique;
   color:red;
 }
 .bxl-linkedin{
-  color:rgb(27, 27, 142);
+  color:rgb(64 64 255);
 }
 .bxl-twitter{
   color:rgb(82, 148, 234);
@@ -669,12 +670,17 @@ font-style: oblique;
   color:rgb(232, 88, 112);
 }
 .bxl-github{
-  color:black;
+  color:#5d646f;
 }
 
 .last{
   text-align: center;
   margin-top: 3em;
+}
+.skillset{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:center;
 }
 
 .faicons{
