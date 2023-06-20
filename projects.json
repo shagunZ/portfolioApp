@@ -10,8 +10,8 @@
           },
         
              {
-            "link": "https://github.com/shagunZ/YelpCamp",
-            "github": "https://www.youtube.com/watch?v=UkbCn1jiCv4",
+            "github": "https://github.com/shagunZ/YelpCamp",
+            "link": "https://www.youtube.com/watch?v=UkbCn1jiCv4",
             "youtube":"https://www.youtube.com/watch?v=UkbCn1jiCv4",
             "title": "Yelp Camp",
             "description": "YelpCamp is a Full Stack app for a campground sharing and reviewing platform. Users can create an account, log in, and perform various actions within the application, such as creating , adding comments and reviews , editing or deleting , and browsing through different campground listings.",
@@ -36,8 +36,8 @@
           },
   
           {
-            "link": "https://www.youtube.com/watch?v=9xPglGIqDPI",
             "youtube": "https://www.youtube.com/watch?v=9xPglGIqDPI",
+            "link": "https://www.youtube.com/watch?v=9xPglGIqDPI",
             "github": "https://github.com/shagunZ/BlogifyMERN",
             "title": "Blogify",
             "description": "A MERN stack app that provides authentication for secure access and includes features like liking and viewing personal and all blogs. With a user-friendly interface and rich text editing capabilities, Blogify makes blogging a seamless experience for users of all levels. ",
@@ -55,7 +55,7 @@
           {
             "link": "https://moviey.netlify.app",
             "youtube":"https://www.youtube.com/watch?v=hRdPMSi_7ZY",
-            "github":"https://github.com/shagunZ/MovieApp",
+            "github":"https://github.com/shagunZ/movieapp-react",
             "title": "MovieApp",
             "description": "The MovieApp is built with React, leveraging APIs to provide users with an extensive collection of movies and comprehensive search options. The app dynamically retrieves movie data, including titles,ratings, posters, and more, ensuring an up-to-date and diverse selection for users to explore. ",
             "tech": ["Reactjs", "Api", "JavaScript"]
