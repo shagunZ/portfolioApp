@@ -77,24 +77,6 @@
             "title": "PayApi",
             "description": "The PayAPI app is a frontend multipage application developed as a challenge project for Frontend Mentor. It utilizes the Express framework to create a user-friendly and is built with a responsive design, ensuring that it functions well and adapts to various devices and screen sizes.  ",
             "tech": ["Expressjs", "JavaScript"]
-          },
-   
-          {
-            "link": "https://master--threejsspacetutorial.netlify.app/",
-            "github": "https://github.com/shagunZ/SpaceThreejs",
-            "youtube": "https://master--threejsspacetutorial.netlify.app/",
-            "title": "ThreeJsSpaceTutorial",
-            "description": "The Three.js Space Tutorial website is a captivating and interactive platform dedicated to exploring the wonders and power of Three.js, a popular JavaScript library for creating 3D graphics in the browser through a easy gothrough space environment. The interactive elements are seamlessly integrated, making it easy for users to explore and interact .  ",
-            "tech": ["Threejs", "React"]
-          },
-   
-          {
-            "link": "https://github.com/shagunZ/ScoreKeeper",
-            "github": "https://github.com/shagunZ/ScoreKeeper",
-            "youtube": "https://www.youtube.com/watch?v=moq3xTYEEus",
-            "title": "ScoreKeeper",
-            "description": "Built using React, this app provides a user-friendly interface and real-time score updates.  The app dynamically updates the scores in real-time, providing an interactive and engaging experience. The app incorporates a score limit feature and displays the winner when the score limit is reached.  ",
-            "tech": ["React"]
           }
         ]
  

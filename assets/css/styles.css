@@ -609,8 +609,8 @@ body.dark-theme {
   }
 
   .home_img {
-    width: 400px;
-    height: 400px;
+    width: 350px;
+    height: 350px;
     border: 2px;
     border-radius:440px;
     margin-top: var(--mb-1);
@@ -686,3 +686,4 @@ font-style: oblique;
 .faicons{
   font-size:3em;
 }
+
