@@ -1,10 +1,6 @@
-###### Welcome
-<!---->
-<div align="center">
-<img src="./ReadMeFiles/app.jpg" align="center">
-</div>
-
-<!-- # Hello, Welcome to the Repo -->
+#### Welcome
+Hey, Welcome to my portfolio website! \
+Glad to have you here! :)
 <!-- 
 <p>Esse projeto foi feito por: <strong>Thiago Silva Lopes</strong>, em 01/2022,</br>
 tendo como base o <a href="https://www.youtube.com/watch?v=5RIFrZEjURA" target="_blank">tutorial</a>
