@@ -8,15 +8,17 @@
             "description": "Scroll Gate combines the concept of infinite scrolling, external API integration, React development, and Firebase Authentication to create a dynamic and engaging application that keeps users immersed in a continuous stream of content while maintaining secure user authentication. ",
             "tech": ["Reactjs ", "Firebase ", "ReactBootstrap"]
           },
-        
-             {
-            "github": "https://github.com/shagunZ/YelpCamp",
-            "link": "https://www.youtube.com/watch?v=UkbCn1jiCv4",
-            "youtube":"https://www.youtube.com/watch?v=UkbCn1jiCv4",
-            "title": "Yelp Camp",
-            "description": "YelpCamp is a Full Stack app for a campground sharing and reviewing platform. Users can create an account, log in, and perform various actions within the application, such as creating , adding comments and reviews , editing or deleting , and browsing through different campground listings.",
-            "tech": ["Expressjs ", "Nodejs ", "Bycrypt ", "JavaScript"]
+
+            
+          {
+            "youtube": "https://www.youtube.com/watch?v=9xPglGIqDPI",
+            "link": "https://www.youtube.com/watch?v=9xPglGIqDPI",
+            "github": "https://github.com/shagunZ/BlogifyMERN",
+            "title": "Blogify",
+            "description": "A MERN stack app that provides authentication for secure access and includes features like liking and viewing personal and all blogs. With a user-friendly interface and rich text editing capabilities, Blogify makes blogging a seamless experience for users of all levels. ",
+            "tech": ["MongoDB", "Expressjs", "React", "Nodejs "]
           },
+        
   
           {
             "link": "https://synopsisai.netlify.app/",
@@ -27,6 +29,14 @@
             "tech": ["Reactjs ", "Tailwind "]
           },
           {
+            "github": "https://github.com/shagunZ/YelpCamp",
+            "link": "https://www.youtube.com/watch?v=UkbCn1jiCv4",
+            "youtube":"https://www.youtube.com/watch?v=UkbCn1jiCv4",
+            "title": "Yelp Camp",
+            "description": "YelpCamp is a Full Stack app for a campground sharing and reviewing platform. Users can create an account, log in, and perform various actions within the application, such as creating , adding comments and reviews , editing or deleting , and browsing through different campground listings.",
+            "tech": ["Expressjs ", "Nodejs ", "Bycrypt ", "JavaScript"]
+          },
+          {
             "link": "https://github.com/shagunZ/ToDoAppCrud",
             "youtube":"https://www.youtube.com/watch?v=hRdPMSi_7ZY",
             "github":"https://github.com/shagunZ/ToDoAppCrud",
@@ -34,15 +44,7 @@
             "description": "Task Manager is a MERN stack application that excels in providing efficient Create, Read, Update, and Delete (CRUD) operations. It is a no-login task recording app utilizing various features of React, such as Event Listeners, State Management, Conditional Rendering, React Hooks, seamless user experience without experiencing page reloads.  ",
             "tech": ["Reactjs ", "Expressjs ", "Nodejs ", "MongoDB"]
           },
-  
-          {
-            "youtube": "https://www.youtube.com/watch?v=9xPglGIqDPI",
-            "link": "https://www.youtube.com/watch?v=9xPglGIqDPI",
-            "github": "https://github.com/shagunZ/BlogifyMERN",
-            "title": "Blogify",
-            "description": "A MERN stack app that provides authentication for secure access and includes features like liking and viewing personal and all blogs. With a user-friendly interface and rich text editing capabilities, Blogify makes blogging a seamless experience for users of all levels. ",
-            "tech": ["MongoDB", "Expressjs", "React", "Nodejs "]
-          },
+
           {
             "link": "https://friendlychat-79704.firebaseapp.com/",
             "youtube":"https://github.com/shagunZ/FriendlyChatfirebase",
