@@ -101,9 +101,9 @@ img {
 /*========== Variables Dark theme ==========*/
 body.dark-theme {
   /* --title-color: #fff; */
-  --title-color: #80cbff ;
+  --title-color: white ;
   /* --text-color: #e8e8e8; */
-  --text-color: #80cbff ;
+  --text-color: white ;
   /* --text-color-light: #838385; */
   --text-color-light: #80cbff ;
   --body-color: #111f24;
@@ -625,7 +625,9 @@ body.dark-theme {
 
 
 
-
+.card-img-top{
+  border-radius:33px
+}
 .card-text{
   font-size: 0.8em;
   font-weight: lighter;

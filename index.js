@@ -36,9 +36,10 @@ http.onload = function(){
       let output = "";
       for(let item of products){
          output += `
-         <div class="card" style="width: 18rem;">
+         <div class="card" style="width: 28rem;">
          <div class="card-body">
-           <h5 class="card-title">${item.title}</h5>
+         <h5 class="card-title">${item.title}</h5>
+         <img src=${item.img} class="card-img-top" alt="...">
            <h6 class="card-subtitle mb-2 text-body-secondary">${item.tech}</h6>
            <p class="card-text">${item.description}</p>
            <div style="margin:8px">

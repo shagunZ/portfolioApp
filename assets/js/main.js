@@ -108,21 +108,22 @@ themeButton.addEventListener("click", () => {
 });
 
 /*==================== SCROLL REVEAL ANIMATION ====================*/
-// const sr = ScrollReveal({
-//   origin: "top",
-//   distance: "30px",
-//   duration: 500,
-//   reset: true
-// });
+const sr = ScrollReveal({
+  origin: "top",
+  distance: "30px",
+  duration: 400,
+  reset: true
+});
 
-// sr.reveal(
-//   `.home_data, .home_img,
-//           .about_data, .about_img,
-//           .services_content, .menu_content,
-//           .app_data, .app_img,
-//           .contact_data, .contact_button,
-//           .footer_content`,
-//   {
-//     interval: 80
-//   }
-// );
+sr.reveal(
+  `.home_data, .home_img,
+          .about_data, .about_img,
+          .services_content, 
+          .menu_content,
+          .app_data, .app_img,
+          .contact_data, .contact_button,
+          .footer_content`,
+  {
+    interval: 90
+  }
+);

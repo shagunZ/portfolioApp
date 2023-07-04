@@ -2,6 +2,7 @@
     [
           {
             "link": "https://scrollgate.netlify.app/",
+            "img":"scrollgate.png",
             "github": "https://github.com/shagunZ/ScrollGate",
             "youtube":"https://www.youtube.com/watch?v=u0RLH4vKBrA",
             "title": "Scroll Gate",
@@ -12,6 +13,7 @@
             
           {
             "youtube": "https://www.youtube.com/watch?v=9xPglGIqDPI",
+            "img":"scrollgate.png",
             "link": "https://www.youtube.com/watch?v=9xPglGIqDPI",
             "github": "https://github.com/shagunZ/BlogifyMERN",
             "title": "Blogify",
@@ -22,6 +24,7 @@
   
           {
             "link": "https://synopsisai.netlify.app/",
+            "img":"scrollgate.png",
             "youtube":"https://www.youtube.com/watch?v=0hrAFKKQLOY",
             "github":"https://github.com/shagunZ/SynopsisAI",
             "title": "SynopsisAI",
@@ -30,6 +33,7 @@
           },
           {
             "github": "https://github.com/shagunZ/YelpCamp",
+            "img":"scrollgate.png",
             "link": "https://www.youtube.com/watch?v=UkbCn1jiCv4",
             "youtube":"https://www.youtube.com/watch?v=UkbCn1jiCv4",
             "title": "Yelp Camp",
