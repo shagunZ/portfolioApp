@@ -1,5 +1,25 @@
 
     [
+
+      {
+        "link": "https://synopsisai.netlify.app/",
+        "img":"gptx.png",
+        "youtube":"https://www.youtube.com/watch?v=0hrAFKKQLOY",
+        "github":"https://github.com/shagunZ/SynopsisAI",
+        "title": "SynopsisAI",
+        "description": "SynopsisAI streamline your reading experience and can transform lengthy articles into concise and easily readable summaries. The generated summaries are designed to be clear, concise, and highly readable texts and are facilitated by connecting to relevant APIs that processes the summarization. ",
+        "tech": ["Reactjs ", "Tailwind "]
+      },
+         
+          {
+            "youtube": "https://www.youtube.com/watch?v=9xPglGIqDPI",
+            "img":"blogify.png",
+            "link": "https://www.youtube.com/watch?v=9xPglGIqDPI",
+            "github": "https://github.com/shagunZ/BlogifyMERN",
+            "title": "Blogify",
+            "description": "A MERN stack app that provides authentication for secure access and includes features like liking and viewing personal and all blogs. With a user-friendly interface and rich text editing capabilities, Blogify makes blogging a seamless experience for users of all levels. ",
+            "tech": ["MongoDB", "Expressjs", "React", "Nodejs "]
+          },
           {
             "link": "https://scrollgate.netlify.app/",
             "img":"scrollgate.png",
@@ -9,31 +29,10 @@
             "description": "Scroll Gate combines the concept of infinite scrolling, external API integration, React development, and Firebase Authentication to create a dynamic and engaging application that keeps users immersed in a continuous stream of content while maintaining secure user authentication. ",
             "tech": ["Reactjs ", "Firebase ", "ReactBootstrap"]
           },
-
-            
-          {
-            "youtube": "https://www.youtube.com/watch?v=9xPglGIqDPI",
-            "img":"scrollgate.png",
-            "link": "https://www.youtube.com/watch?v=9xPglGIqDPI",
-            "github": "https://github.com/shagunZ/BlogifyMERN",
-            "title": "Blogify",
-            "description": "A MERN stack app that provides authentication for secure access and includes features like liking and viewing personal and all blogs. With a user-friendly interface and rich text editing capabilities, Blogify makes blogging a seamless experience for users of all levels. ",
-            "tech": ["MongoDB", "Expressjs", "React", "Nodejs "]
-          },
         
-  
-          {
-            "link": "https://synopsisai.netlify.app/",
-            "img":"scrollgate.png",
-            "youtube":"https://www.youtube.com/watch?v=0hrAFKKQLOY",
-            "github":"https://github.com/shagunZ/SynopsisAI",
-            "title": "SynopsisAI",
-            "description": "SynopsisAI streamline your reading experience and can transform lengthy articles into concise and easily readable summaries. The generated summaries are designed to be clear, concise, and highly readable texts and are facilitated by connecting to relevant APIs that processes the summarization. ",
-            "tech": ["Reactjs ", "Tailwind "]
-          },
           {
             "github": "https://github.com/shagunZ/YelpCamp",
-            "img":"scrollgate.png",
+            "img":"yelp.png",
             "link": "https://www.youtube.com/watch?v=UkbCn1jiCv4",
             "youtube":"https://www.youtube.com/watch?v=UkbCn1jiCv4",
             "title": "Yelp Camp",
@@ -42,6 +41,7 @@
           },
           {
             "link": "https://github.com/shagunZ/ToDoAppCrud",
+            "img":"task.png",
             "youtube":"https://www.youtube.com/watch?v=hRdPMSi_7ZY",
             "github":"https://github.com/shagunZ/ToDoAppCrud",
             "title": "Task Manager",
@@ -51,6 +51,7 @@
 
           {
             "link": "https://friendlychat-79704.firebaseapp.com/",
+            "img":"friendlychat.png",
             "youtube":"https://github.com/shagunZ/FriendlyChatfirebase",
             "github":"https://github.com/shagunZ/FriendlyChatfirebase",
             "title": "Friendly Chat",
@@ -60,6 +61,7 @@
    
           {
             "link": "https://moviey.netlify.app",
+            "img":"movie.png",
             "youtube":"https://www.youtube.com/watch?v=hRdPMSi_7ZY",
             "github":"https://github.com/shagunZ/movieapp-react",
             "title": "MovieApp",
@@ -69,6 +71,7 @@
    
           {
             "link": "https://github.com/shagunZ/Bookstore-shoppingCart",
+            "img":"bookcart.png",
             "github": "https://github.com/shagunZ/Bookstore-shoppingCart",
             "youtube":"https://www.youtube.com/watch?v=nf5j6xxLNW0",
             "title": "Book Cart",
@@ -78,6 +81,7 @@
    
           {
             "link": "https://github.com/shagunZ/apifrontmentor-express",
+            "img":"payapi.png",
             "github": "https://github.com/shagunZ/apifrontmentor-express",
             "youtube": "https://www.youtube.com/watch?v=Xjb-9ZepWzw",
             "title": "PayApi",

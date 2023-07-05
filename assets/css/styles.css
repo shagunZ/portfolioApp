@@ -626,7 +626,9 @@ body.dark-theme {
 
 
 .card-img-top{
-  border-radius:33px
+  border-radius:33px;
+  height:40vh;
+  width:30vw
 }
 .card-text{
   font-size: 0.8em;
@@ -640,8 +642,8 @@ font-size: small;
 font-style: oblique;
 }
 .card-title{
-  font-size: large;
-  color: #6ab583;
+  font-size: x-large;
+  color: #0a629e;
 }
 .card-body{
   cursor:pointer;
